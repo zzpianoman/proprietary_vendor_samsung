@@ -1,9 +1,7 @@
 PRODUCT_COPY_FILES += \
-	vendor/samsung/tuna/common/proprietary/bin/fRom:system/bin/fRom \
 	vendor/samsung/tuna/common/proprietary/etc/powervr.ini:system/etc/powervr.ini \
 	vendor/samsung/tuna/common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-	vendor/samsung/tuna/common/proprietary/vendor/bin/pvrsrvctl_SGX540_120:system/vendor/bin/pvrsrvctl_SGX540_120 \
-	vendor/samsung/tuna/common/proprietary/vendor/bin/pvrsrvinit:system/vendor/bin/pvrsrvinit \
+	vendor/samsung/tuna/common/proprietary/vendor/bin/fRom:system/vendor/bin/fRom \
 	vendor/samsung/tuna/common/proprietary/vendor/etc/sirfgps.conf:system/vendor/etc/sirfgps.conf \
 	vendor/samsung/tuna/common/proprietary/vendor/firmware/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin \
 	vendor/samsung/tuna/common/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
