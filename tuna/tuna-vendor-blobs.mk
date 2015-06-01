@@ -11,7 +11,6 @@ PRODUCT_COPY_FILES += \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/firmware/mms144_ts_rev31.fw:system/vendor/firmware/mms144_ts_rev31.fw \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/firmware/mms144_ts_rev32.fw:system/vendor/firmware/mms144_ts_rev32.fw \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/hw/gps.omap4.so:system/vendor/lib/hw/gps.omap4.so \
