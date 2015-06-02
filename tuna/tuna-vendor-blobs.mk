@@ -38,14 +38,12 @@ endif
 
 # maguro-specific files copied to /system/vendor/maguro
 PRODUCT_COPY_FILES += \
-	$(VENDOR_FOLDER)/maguro/proprietary/lib/libsecril-client.so:system/vendor/maguro/lib/libsecril-client.so \
 	$(VENDOR_FOLDER)/maguro/proprietary/vendor/firmware/bcm4330.hcd:system/vendor/maguro/firmware/bcm4330.hcd \
 	$(VENDOR_FOLDER)/maguro/proprietary/vendor/lib/libsec-ril.so:system/vendor/maguro/lib/libsec-ril.so
 
 
 # toro and toroplus common files copied to /system/vendor/toro-common
 PRODUCT_COPY_FILES += \
-	$(VENDOR_FOLDER)/toro-common/proprietary/lib/libsecril-client.so:system/vendor/toro-common/lib/libsecril-client.so \
 	$(VENDOR_FOLDER)/toro-common/proprietary/vendor/firmware/bcm4330.hcd:system/vendor/toro-common/firmware/bcm4330.hcd
 
 
