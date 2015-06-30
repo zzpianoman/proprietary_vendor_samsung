@@ -5,7 +5,6 @@ VENDOR_FOLDER := vendor/samsung/tuna
 PRODUCT_COPY_FILES += \
 	$(VENDOR_FOLDER)/common/proprietary/etc/powervr.ini:system/etc/powervr.ini \
 	$(VENDOR_FOLDER)/common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-	$(VENDOR_FOLDER)/common/proprietary/vendor/etc/sirfgps.conf:system/vendor/etc/sirfgps.conf \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/firmware/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/firmware/mms144_ts_rev31.fw:system/vendor/firmware/mms144_ts_rev31.fw \
@@ -13,7 +12,6 @@ PRODUCT_COPY_FILES += \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
-	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/hw/gps.omap4.so:system/vendor/lib/hw/gps.omap4.so \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/hw/gralloc.omap4.so:system/vendor/lib/hw/gralloc.omap4.so \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
@@ -38,13 +36,18 @@ endif
 
 # maguro-specific files copied to /system/vendor/maguro
 PRODUCT_COPY_FILES += \
+	$(VENDOR_FOLDER)/maguro/proprietary/vendor/etc/sirfgps.conf:system/vendor/maguro/etc/sirfgps.conf \
 	$(VENDOR_FOLDER)/maguro/proprietary/vendor/firmware/bcm4330.hcd:system/vendor/maguro/firmware/bcm4330.hcd \
+	$(VENDOR_FOLDER)/maguro/proprietary/vendor/lib/hw/gps.omap4.so:system/vendor/maguro/lib/hw/gps.omap4.so \
 	$(VENDOR_FOLDER)/maguro/proprietary/vendor/lib/libsec-ril.so:system/vendor/maguro/lib/libsec-ril.so
 
 
 # toro and toroplus common files copied to /system/vendor/toro-common
 PRODUCT_COPY_FILES += \
-	$(VENDOR_FOLDER)/toro-common/proprietary/vendor/firmware/bcm4330.hcd:system/vendor/toro-common/firmware/bcm4330.hcd
+	$(VENDOR_FOLDER)/toro-common/proprietary/vendor/etc/sirfgps.conf:system/vendor/toro-common/etc/sirfgps.conf \
+	$(VENDOR_FOLDER)/toro-common/proprietary/vendor/firmware/bcm4330.hcd:system/vendor/toro-common/firmware/bcm4330.hcd \
+	$(VENDOR_FOLDER)/toro-common/proprietary/vendor/lib/hw/gps.omap4.so:system/vendor/toro-common/lib/hw/gps.omap4.so \
+	$(VENDOR_FOLDER)/toro-common/proprietary/vendor/lib/lib_gsd4t.so:system/vendor/toro-common/lib/lib_gsd4t.so
 
 
 # toro-specific files copied to /system/vendor/toro
