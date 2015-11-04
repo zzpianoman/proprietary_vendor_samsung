@@ -6,7 +6,6 @@ PRODUCT_COPY_FILES += \
 	$(VENDOR_FOLDER)/common/proprietary/etc/powervr.ini:system/etc/powervr.ini \
 	$(VENDOR_FOLDER)/common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/firmware/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin \
-	$(VENDOR_FOLDER)/common/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/firmware/mms144_ts_rev31.fw:system/vendor/firmware/mms144_ts_rev31.fw \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/firmware/mms144_ts_rev32.fw:system/vendor/firmware/mms144_ts_rev32.fw \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
