@@ -3,26 +3,14 @@ VENDOR_FOLDER := vendor/samsung/tuna
 
 # common tuna files copied to default locations
 PRODUCT_COPY_FILES += \
-	$(VENDOR_FOLDER)/common/proprietary/etc/powervr.ini:system/etc/powervr.ini \
 	$(VENDOR_FOLDER)/common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/firmware/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/firmware/mms144_ts_rev31.fw:system/vendor/firmware/mms144_ts_rev31.fw \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/firmware/mms144_ts_rev32.fw:system/vendor/firmware/mms144_ts_rev32.fw \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
-	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
-	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/hw/gralloc.omap4.so:system/vendor/lib/hw/gralloc.omap4.so \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
-	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/libglslcompiler_SGX540_120.so:system/vendor/lib/libglslcompiler_SGX540_120.so \
-	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/libIMGegl_SGX540_120.so:system/vendor/lib/libIMGegl_SGX540_120.so \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/libinvensense_mpl.so:system/vendor/lib/libinvensense_mpl.so \
-	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/libpvr2d_SGX540_120.so:system/vendor/lib/libpvr2d_SGX540_120.so \
-	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/libpvrANDROID_WSEGL_SGX540_120.so:system/vendor/lib/libpvrANDROID_WSEGL_SGX540_120.so \
-	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
-	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/libsrv_init_SGX540_120.so:system/vendor/lib/libsrv_init_SGX540_120.so \
-	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/libsrv_um_SGX540_120.so:system/vendor/lib/libsrv_um_SGX540_120.so \
-	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/libusc_SGX540_120.so:system/vendor/lib/libusc_SGX540_120.so \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
 	$(VENDOR_FOLDER)/common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so
